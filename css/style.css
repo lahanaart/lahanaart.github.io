@@ -1,0 +1,166 @@
+body{	background-color: #151515;
+		color: rgba(221, 221, 221, 1);
+		font-family: 'Barlow', sans-serif;
+		 
+}
+
+
+	.site-title{
+			text-align: center;
+			margin: 0 auto;
+			font-size: 40px;
+			margin-top: 350px;
+			}
+
+	.title{
+			font-size: 20px;
+			font-style: bold;
+			text-align: center;
+
+		}
+
+	.contact{
+			margin: 0 auto;
+			position: relative;
+			top: -15px;
+	}	
+
+	.arrow{
+		float: right;
+		position: relative;
+		right: 1380px;
+		top: 480px;
+		
+	}
+
+	.right-arrow{
+		float: right;
+		position: relative;
+		right: 760px;
+		top: 480px;
+
+	}
+
+	.left-arrow{
+		float: right;
+		position: relative;
+		right: 1430px;
+		top: 480px;
+	}
+	
+
+	}
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+		h1, h2, h3, h4, h5, h6, p
+{
+	font-weight: normal;
+}
+
+p.small-txt{
+	font-size: 12px;
+}
+
+a, a:visited, a:active{
+	text-decoration: none;
+	color: rgba(246, 246, 246, .5);
+}
+
+a:hover{
+	color: rgba(246, 246, 246, 1);
+}
+
+
+
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+	
+
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	
+	height: auto;
+	
+
+}
+.hvrbox img {
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 330px;
+	margin-left: 610px;
+	
+
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+	
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+	margin-top: 330px;
+	margin-left: 610px;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); 
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+
+
+	}
+
+
+/* ========================================================================== */
+/* CSS GRID  */
+/* ========================================================================== */
+
